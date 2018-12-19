@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1E78EA21C9044E0050C43D /* grenade.dae in Resources */ = {isa = PBXBuildFile; fileRef = EE1E78E921C9044E0050C43D /* grenade.dae */; };
+		EEA6FDE321C9117C001B3EB0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA6FDE221C9117C001B3EB0 /* MBProgressHUD.m */; };
 		EED79EBD2199957C002327DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED79EBC2199957C002327DC /* AppDelegate.swift */; };
 		EED79EBF2199957C002327DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED79EBE2199957C002327DC /* ViewController.swift */; };
 		EED79EC22199957C002327DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED79EC02199957C002327DC /* Main.storyboard */; };
 		EED79EC42199957D002327DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED79EC32199957D002327DC /* Assets.xcassets */; };
 		EED79EC72199957D002327DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED79EC52199957D002327DC /* LaunchScreen.storyboard */; };
+		EED79ECF2199C974002327DC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED79ECE2199C974002327DC /* GameViewController.swift */; };
+		EED79ED62199E1C5002327DC /* Armouries.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EED79ED52199E1C5002327DC /* Armouries.scnassets */; };
+		EED79EDA2199E55B002327DC /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED79ED92199E55B002327DC /* itemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE1E78E921C9044E0050C43D /* grenade.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = grenade.dae; sourceTree = "<group>"; };
+		EEA6FDE121C9117C001B3EB0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "../../../../../Downloads/MBProgressHUD-master/MBProgressHUD.h"; sourceTree = "<group>"; };
+		EEA6FDE221C9117C001B3EB0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "../../../../../Downloads/MBProgressHUD-master/MBProgressHUD.m"; sourceTree = "<group>"; };
+		EEA6FDE521C911D7001B3EB0 /* Lock On-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lock On-Bridging-Header.h"; sourceTree = "<group>"; };
 		EED79EB92199957C002327DC /* Lock On.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lock On.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED79EBC2199957C002327DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED79EBE2199957C002327DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		EED79EC32199957D002327DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED79EC62199957D002327DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EED79EC82199957D002327DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED79ECE2199C974002327DC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EED79ED52199E1C5002327DC /* Armouries.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Armouries.scnassets; sourceTree = "<group>"; };
+		EED79ED92199E55B002327DC /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,9 +47,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EEA6FDE421C911A4001B3EB0 /* MB Progress HUD */ = {
+			isa = PBXGroup;
+			children = (
+				EEA6FDE521C911D7001B3EB0 /* Lock On-Bridging-Header.h */,
+			);
+			path = "MB Progress HUD";
+			sourceTree = "<group>";
+		};
 		EED79EB02199957C002327DC = {
 			isa = PBXGroup;
 			children = (
+				EED79ED92199E55B002327DC /* itemCell.swift */,
 				EED79EBB2199957C002327DC /* Lock On */,
 				EED79EBA2199957C002327DC /* Products */,
 			);
@@ -54,8 +75,14 @@
 		EED79EBB2199957C002327DC /* Lock On */ = {
 			isa = PBXGroup;
 			children = (
+				EEA6FDE421C911A4001B3EB0 /* MB Progress HUD */,
+				EEA6FDE121C9117C001B3EB0 /* MBProgressHUD.h */,
+				EEA6FDE221C9117C001B3EB0 /* MBProgressHUD.m */,
+				EE1E78E921C9044E0050C43D /* grenade.dae */,
+				EED79ED52199E1C5002327DC /* Armouries.scnassets */,
 				EED79EBC2199957C002327DC /* AppDelegate.swift */,
 				EED79EBE2199957C002327DC /* ViewController.swift */,
+				EED79ECE2199C974002327DC /* GameViewController.swift */,
 				EED79EC02199957C002327DC /* Main.storyboard */,
 				EED79EC32199957D002327DC /* Assets.xcassets */,
 				EED79EC52199957D002327DC /* LaunchScreen.storyboard */,
@@ -96,6 +123,7 @@
 				TargetAttributes = {
 					EED79EB82199957C002327DC = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -123,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EED79EC72199957D002327DC /* LaunchScreen.storyboard in Resources */,
+				EE1E78EA21C9044E0050C43D /* grenade.dae in Resources */,
 				EED79EC42199957D002327DC /* Assets.xcassets in Resources */,
+				EED79ED62199E1C5002327DC /* Armouries.scnassets in Resources */,
 				EED79EC22199957C002327DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED79EDA2199E55B002327DC /* itemCell.swift in Sources */,
 				EED79EBF2199957C002327DC /* ViewController.swift in Sources */,
+				EEA6FDE321C9117C001B3EB0 /* MBProgressHUD.m in Sources */,
+				EED79ECF2199C974002327DC /* GameViewController.swift in Sources */,
 				EED79EBD2199957C002327DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MN65R9FYSJ;
 				INFOPLIST_FILE = "Lock On/Info.plist";
@@ -291,6 +325,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertcass.Lock-On";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lock On/MB Progress HUD/Lock On-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MN65R9FYSJ;
 				INFOPLIST_FILE = "Lock On/Info.plist";
@@ -309,6 +346,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertcass.Lock-On";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lock On/MB Progress HUD/Lock On-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

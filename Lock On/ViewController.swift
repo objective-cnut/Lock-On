@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var NewGame: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func startGame(_ sender: Any) {
+        self.performSegue(withIdentifier: "GameSegue", sender: self)
+    }
+    
 }
 
